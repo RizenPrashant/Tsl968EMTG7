@@ -1,0 +1,119 @@
+url = https://www.easemytrip.com/
+id1 = txtEmail
+usernameCA = cskr3422@gmail.com
+xpath = //*[@id="txtEmail2"]
+pwd = Csk@12345
+wusername = cskr342
+wpwd = csk123
+from=Delhi(DEL)
+to=Mumbai(BOM)
+
+MyAccount      =       //div[@class='ng-scope']//div[@class='sub_header_link3']
+Signup         =       //div[@id='divSignInPnl']/a[@id='shwlogn']
+EmailInput     =       //input[@id='txtEmail']
+ContinueToOtp  =       //input[@id='shwotp']
+OtpInput       =       //input[@id='txtEmail1']
+CreateAcc      =       //input[@id='OtpLgnBtn']
+
+
+
+
+
+
+
+
+
+login
+url=https://www.easemytrip.com/
+id1 =txtEmail
+username= cskr342@gmail.com
+xpath= //*[@id="txtEmail2"]
+Password1= Csk@12345
+xpath = //*[@id="txtEmail2"]
+Password2= 1234567
+username1=cskr234
+title =Book Flights, Hotels, Bus Tickets & Holidays - EaseMyTrip.com
+tpath=/html/head/title
+id2=txtEmail
+username12=7983537225
+xpath1=//*[@id="txtEmail2"]
+Password12 = 12345
+Password13 =55555
+wrongNumber =567894322
+from= Mumbai(BOM)
+to= Delhi (DEL)
+#departure Date xpath =//*[@id="trd_4_18/11/2021"]
+#Return Date xpath =//*[@id="trd_6_20/11/2021"]
+#travellers =//*[@id="myDropdown_n"]/div/div[1]/div[1]/p
+#Select class=//*[@id="frmHome"]/div[5]/div[2]/div[3]/div[1]/div[6]/div/a/span
+#click on search = //*[@id="search"]/input
+idemail =txtEmailId
+name =Harry
+lastname=Sharma
+no=7890543289
+
+
+Flightoneway
+From =Mumbai
+To =Delhi
+link=https://www.easemytrip.com/
+mail=cskr342@gmail.com
+invalidmail=cskr342@gmail
+Firstname=admin
+Lastname=admin
+mobile=9021691623
+
+
+
+Hotel Search And Booking
+#search testcase1
+url=http://www.easemytrip.com/
+hotels=//div[@class= 'emt_nav']/ul/li[2]
+city = /html/body/div[2]/div/div[4]/div/form/div/div[2]/span[1]
+txtcity = //input[@id='txtCity']
+txtcityop=//*[@id=\"ulautoCity\"]/li[1]
+checkin=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[2]/td[1]/a
+checkout=//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[2]/td[4]/a
+room=//*[@id=\"Adults_room_1_1\"]
+bookroom=//*[@id=\"exithotelroom\"]
+search=/html/body/div[2]/div/div[4]/div/div[4]/input
+
+#search testcase2
+hotel1=//div[@class= 'emt_nav']/ul/li[2]
+hotelloc=//div[@class='htl_location']
+txtcity1=//*[@id=\"txtCity\"]
+date=//*[@id=\"htl_dates\"]
+checkin1=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[2]/td[5]/a
+checkout1=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[3]/td[2]/a
+roomadd=//*[@id=\"addhotelRoom\"]
+
+#search testcase3
+txtcityop1=//*[@id=\"ulautoCity"]/li[2]/div[1]
+checkin2=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[2]/td[5]/a
+checkout2=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[3]/td[2]/a
+newcheckin2=//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[3]/td[7]/a
+newcheckout2=//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[4]/td[2]/a
+
+#search testcase4
+checkin3=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[2]/td[7]/a
+checkout3=//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[3]/td[3]/a
+childroom=//*[@id=\"Children_room_1_1\
+childroomadd=//*[@id=\"Children_room_1_1_plus\"]
+childroomage=
+//*[@id="Children_room_1_1_plus"]
+
+#search testcase5
+txtcityop3=//*[@id=\"ulautoCity\"]/li[2]/div[1]
+checkin5=//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[2]/td[2]/a
+checkout5=//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[2]/td[6]/a
+
+
+#Book hotel 1
+hotelname1=//*[@id=\"hotelListDiv\"]/div[14]/div[2]/div/a/div/h3
+booknow1=//*[@id="divDesc"]/div[3]/div[2]/div[2]/div[6]/a[2]
+gender1=//*[@id=\"ddlGender1\"]
+hfirstname1=//*[@id=\"txtFirstName1\"]
+hlastname1=//*[@id=\"txtLastName1\"]
+hemailid1=//*[@id=\"txtEmailId\"]
+hphone1=//*[@id=\"txtCPhone\"]
+hpayment=//*[@id=\"btnTravellerContinue\"]/div[1]

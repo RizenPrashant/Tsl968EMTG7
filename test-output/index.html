@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\prash\AppData\Local\Temp\testng-eclipse-1092687686\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 3 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EaswMyTripValidDetailsToFailTest">EaswMyTripValidDetailsToFailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="ForValidDetails">ForValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="SearchvalidDetails">SearchvalidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="BookHotel1">BookHotel1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="BookHotel2">BookHotel2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="BookHotel3">BookHotel3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="BookHotel4">BookHotel4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_02">Book_TC_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_04">Book_TC_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_05">Book_TC_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_06">Book_TC_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_07">Book_TC_07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_TC_08">Book_TC_08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Book_Tc_03">Book_Tc_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EMTEmptyUnm">EMTEmptyUnm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EMTInValidEmail">EMTInValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EMTInValidMobNum">EMTInValidMobNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EMTValidEmail">EMTValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EMTValidMobNum">EMTValidMobNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EaswMyTripInValidEmail">EaswMyTripInValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EaswMyTripInValidPassword">EaswMyTripInValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="EaswMyTripValidDetails">EaswMyTripValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Flight_TC_01">Flight_TC_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Flight_TC_02">Flight_TC_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Flight_TC_03">Flight_TC_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="Flight_TC_04">Flight_TC_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="ForEmptyDetails">ForEmptyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="ForInValidDetails">ForInValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="ForValidDetailsInVPN">ForValidDetailsInVPN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="InValidPassword">InValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="InValidnumber">InValidnumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="InvalidDetails">InvalidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="SearchInvalidEmail">SearchInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="searchhotel1">searchhotel1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="searchhotel2">searchhotel2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="searchhotel3">searchhotel3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="searchhotel4">searchhotel4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="searchhotel5">searchhotel5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="AllInOne.Allinone" class="method navigator-link" hash-for-method="validPhoneValidPassword">validPhoneValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">AllInOne.Allinone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EaswMyTripValidDetailsToFailTest">
+                  </a> <!-- EaswMyTripValidDetailsToFailTest -->
+                  <span class="method-name">EaswMyTripValidDetailsToFailTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;shwotpms&quot;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-8FK0RMT&apos;, ip: &apos;192.168.43.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, findElement {using=xpath, value=//*[@id=&quot;shwotpms&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at AllInOne.Allinone.EaswMyTripValidDetailsToFailTest(Allinone.java:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(to show screenshot in extent report.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForValidDetails">
+                  </a> <!-- ForValidDetails -->
+                  <span class="method-name">ForValidDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-8FK0RMT&apos;, ip: &apos;192.168.43.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=d03c1c18-b63c-413c-b8d3-73515281fd06}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -&gt; xpath: //select[@id=&apos;titleAdult0&apos;]]] -&gt; tag name: option]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:176)
+	at AllInOne.Allinone.ForValidDetails(Allinone.java:1002)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchvalidDetails">
+                  </a> <!-- SearchvalidDetails -->
+                  <span class="method-name">SearchvalidDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-8FK0RMT&apos;, ip: &apos;192.168.43.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=a0d367f0-5199-4e4b-abe2-8f4e211ff3d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -&gt; xpath: //*[@id=&apos;divTravlerEntry&apos;]/div[2]/div/a]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at AllInOne.Allinone.SearchvalidDetails(Allinone.java:905)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Creating acc with valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AllInOne.Allinone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookHotel1">
+                  </a> <!-- BookHotel1 -->
+                  <span class="method-name">BookHotel1</span>
+                  <em>
+(invalid case and handling alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookHotel2">
+                  </a> <!-- BookHotel2 -->
+                  <span class="method-name">BookHotel2</span>
+                  <em>
+(valid test case entering only 1 guest details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookHotel3">
+                  </a> <!-- BookHotel3 -->
+                  <span class="method-name">BookHotel3</span>
+                  <em>
+(1 child and 1 adult valid case)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookHotel4">
+                  </a> <!-- BookHotel4 -->
+                  <span class="method-name">BookHotel4</span>
+                  <em>
+(2 rooms, incomplete details,invalid case not handling alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_02">
+                  </a> <!-- Book_TC_02 -->
+                  <span class="method-name">Book_TC_02</span>
+                  <em>
+(To test Book Flight using valid mail id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_04">
+                  </a> <!-- Book_TC_04 -->
+                  <span class="method-name">Book_TC_04</span>
+                  <em>
+(To verify Traveller details with valid title,firstName,LastName And phone number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_05">
+                  </a> <!-- Book_TC_05 -->
+                  <span class="method-name">Book_TC_05</span>
+                  <em>
+(To Verify Traveller details without details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_06">
+                  </a> <!-- Book_TC_06 -->
+                  <span class="method-name">Book_TC_06</span>
+                  <em>
+(To Verify Travellrr Detail withoud Entering Title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_07">
+                  </a> <!-- Book_TC_07 -->
+                  <span class="method-name">Book_TC_07</span>
+                  <em>
+(To verify Travellor details without Entering First Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_TC_08">
+                  </a> <!-- Book_TC_08 -->
+                  <span class="method-name">Book_TC_08</span>
+                  <em>
+(To verify Travellor Details withoud Entering Last Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Book_Tc_03">
+                  </a> <!-- Book_Tc_03 -->
+                  <span class="method-name">Book_Tc_03</span>
+                  <em>
+(To test Book Flight using invalid mail id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EMTEmptyUnm">
+                  </a> <!-- EMTEmptyUnm -->
+                  <span class="method-name">EMTEmptyUnm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EMTInValidEmail">
+                  </a> <!-- EMTInValidEmail -->
+                  <span class="method-name">EMTInValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EMTInValidMobNum">
+                  </a> <!-- EMTInValidMobNum -->
+                  <span class="method-name">EMTInValidMobNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EMTValidEmail">
+                  </a> <!-- EMTValidEmail -->
+                  <span class="method-name">EMTValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EMTValidMobNum">
+                  </a> <!-- EMTValidMobNum -->
+                  <span class="method-name">EMTValidMobNum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EaswMyTripInValidEmail">
+                  </a> <!-- EaswMyTripInValidEmail -->
+                  <span class="method-name">EaswMyTripInValidEmail</span>
+                  <em>
+(Login acc with Invalid Email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EaswMyTripInValidPassword">
+                  </a> <!-- EaswMyTripInValidPassword -->
+                  <span class="method-name">EaswMyTripInValidPassword</span>
+                  <em>
+(Login acc with Inalid Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EaswMyTripValidDetails">
+                  </a> <!-- EaswMyTripValidDetails -->
+                  <span class="method-name">EaswMyTripValidDetails</span>
+                  <em>
+(Login acc with valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Flight_TC_01">
+                  </a> <!-- Flight_TC_01 -->
+                  <span class="method-name">Flight_TC_01</span>
+                  <em>
+(To Test search flight using valid from City and Destination City and  date )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Flight_TC_02">
+                  </a> <!-- Flight_TC_02 -->
+                  <span class="method-name">Flight_TC_02</span>
+                  <em>
+(To Ensure that flights can not be search using the value empty from city, empty Destination City  and date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Flight_TC_03">
+                  </a> <!-- Flight_TC_03 -->
+                  <span class="method-name">Flight_TC_03</span>
+                  <em>
+( To Ensure that flight can not booked using empty from city )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Flight_TC_04">
+                  </a> <!-- Flight_TC_04 -->
+                  <span class="method-name">Flight_TC_04</span>
+                  <em>
+(To Ensure that flight can not booked using empty To block )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForEmptyDetails">
+                  </a> <!-- ForEmptyDetails -->
+                  <span class="method-name">ForEmptyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForInValidDetails">
+                  </a> <!-- ForInValidDetails -->
+                  <span class="method-name">ForInValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForValidDetailsInVPN">
+                  </a> <!-- ForValidDetailsInVPN -->
+                  <span class="method-name">ForValidDetailsInVPN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InValidPassword">
+                  </a> <!-- InValidPassword -->
+                  <span class="method-name">InValidPassword</span>
+                  <em>
+(Login acc with valid Phone no and Invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InValidnumber">
+                  </a> <!-- InValidnumber -->
+                  <span class="method-name">InValidnumber</span>
+                  <em>
+(Login acc with Invalid Phone no )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidDetails">
+                  </a> <!-- InvalidDetails -->
+                  <span class="method-name">InvalidDetails</span>
+                  <em>
+(Login acc with Invalid Details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchInvalidEmail">
+                  </a> <!-- SearchInvalidEmail -->
+                  <span class="method-name">SearchInvalidEmail</span>
+                  <em>
+(Creating acc with Invalid Email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchhotel1">
+                  </a> <!-- searchhotel1 -->
+                  <span class="method-name">searchhotel1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchhotel2">
+                  </a> <!-- searchhotel2 -->
+                  <span class="method-name">searchhotel2</span>
+                  <em>
+(no location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchhotel3">
+                  </a> <!-- searchhotel3 -->
+                  <span class="method-name">searchhotel3</span>
+                  <em>
+(checkin and checkout with same date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchhotel4">
+                  </a> <!-- searchhotel4 -->
+                  <span class="method-name">searchhotel4</span>
+                  <em>
+(4 adults and 2 children in 2 rooms)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchhotel5">
+                  </a> <!-- searchhotel5 -->
+                  <span class="method-name">searchhotel5</span>
+                  <em>
+(8 adults and 2 children in 3 rooms)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validPhoneValidPassword">
+                  </a> <!-- validPhoneValidPassword -->
+                  <span class="method-name">validPhoneValidPassword</span>
+                  <em>
+(Login acc with valid Phone no and valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\prash\AppData\Local\Temp\testng-eclipse-1092687686\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AllInOne.Allinone&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EMTValidEmail')
+data.setCell(0, 2, 'AllInOne.Allinone')
+data.setCell(0, 3, 77646);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchInvalidEmail')
+data.setCell(1, 2, 'AllInOne.Allinone')
+data.setCell(1, 3, 54969);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BookHotel4')
+data.setCell(2, 2, 'AllInOne.Allinone')
+data.setCell(2, 3, 48037);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Book_TC_08')
+data.setCell(3, 2, 'AllInOne.Allinone')
+data.setCell(3, 3, 46328);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Book_TC_07')
+data.setCell(4, 2, 'AllInOne.Allinone')
+data.setCell(4, 3, 46282);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Book_TC_06')
+data.setCell(5, 2, 'AllInOne.Allinone')
+data.setCell(5, 3, 45696);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BookHotel1')
+data.setCell(6, 2, 'AllInOne.Allinone')
+data.setCell(6, 3, 42569);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BookHotel3')
+data.setCell(7, 2, 'AllInOne.Allinone')
+data.setCell(7, 3, 41087);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'BookHotel2')
+data.setCell(8, 2, 'AllInOne.Allinone')
+data.setCell(8, 3, 40767);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Book_TC_05')
+data.setCell(9, 2, 'AllInOne.Allinone')
+data.setCell(9, 3, 35292);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Book_TC_04')
+data.setCell(10, 2, 'AllInOne.Allinone')
+data.setCell(10, 3, 31977);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SearchvalidDetails')
+data.setCell(11, 2, 'AllInOne.Allinone')
+data.setCell(11, 3, 27747);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Book_Tc_03')
+data.setCell(12, 2, 'AllInOne.Allinone')
+data.setCell(12, 3, 26953);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Book_TC_02')
+data.setCell(13, 2, 'AllInOne.Allinone')
+data.setCell(13, 3, 25743);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ForValidDetails')
+data.setCell(14, 2, 'AllInOne.Allinone')
+data.setCell(14, 3, 24331);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ForValidDetailsInVPN')
+data.setCell(15, 2, 'AllInOne.Allinone')
+data.setCell(15, 3, 24315);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ForInValidDetails')
+data.setCell(16, 2, 'AllInOne.Allinone')
+data.setCell(16, 3, 21336);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchhotel4')
+data.setCell(17, 2, 'AllInOne.Allinone')
+data.setCell(17, 3, 12430);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Flight_TC_04')
+data.setCell(18, 2, 'AllInOne.Allinone')
+data.setCell(18, 3, 10594);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Flight_TC_03')
+data.setCell(19, 2, 'AllInOne.Allinone')
+data.setCell(19, 3, 10461);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Flight_TC_01')
+data.setCell(20, 2, 'AllInOne.Allinone')
+data.setCell(20, 3, 10022);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchhotel1')
+data.setCell(21, 2, 'AllInOne.Allinone')
+data.setCell(21, 3, 9260);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'searchhotel5')
+data.setCell(22, 2, 'AllInOne.Allinone')
+data.setCell(22, 3, 8886);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchhotel3')
+data.setCell(23, 2, 'AllInOne.Allinone')
+data.setCell(23, 3, 8716);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validPhoneValidPassword')
+data.setCell(24, 2, 'AllInOne.Allinone')
+data.setCell(24, 3, 8144);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Flight_TC_02')
+data.setCell(25, 2, 'AllInOne.Allinone')
+data.setCell(25, 3, 7709);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'EMTValidMobNum')
+data.setCell(26, 2, 'AllInOne.Allinone')
+data.setCell(26, 3, 7077);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'InValidPassword')
+data.setCell(27, 2, 'AllInOne.Allinone')
+data.setCell(27, 3, 6411);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'EaswMyTripValidDetails')
+data.setCell(28, 2, 'AllInOne.Allinone')
+data.setCell(28, 3, 6394);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'EaswMyTripInValidPassword')
+data.setCell(29, 2, 'AllInOne.Allinone')
+data.setCell(29, 3, 6154);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'searchhotel2')
+data.setCell(30, 2, 'AllInOne.Allinone')
+data.setCell(30, 3, 6071);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'EMTEmptyUnm')
+data.setCell(31, 2, 'AllInOne.Allinone')
+data.setCell(31, 3, 5945);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'EMTInValidEmail')
+data.setCell(32, 2, 'AllInOne.Allinone')
+data.setCell(32, 3, 5814);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'EMTInValidMobNum')
+data.setCell(33, 2, 'AllInOne.Allinone')
+data.setCell(33, 3, 4390);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'ForEmptyDetails')
+data.setCell(34, 2, 'AllInOne.Allinone')
+data.setCell(34, 3, 3392);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'EaswMyTripInValidEmail')
+data.setCell(35, 2, 'AllInOne.Allinone')
+data.setCell(35, 3, 2736);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'InValidnumber')
+data.setCell(36, 2, 'AllInOne.Allinone')
+data.setCell(36, 3, 2721);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'InvalidDetails')
+data.setCell(37, 2, 'AllInOne.Allinone')
+data.setCell(37, 3, 2665);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'EaswMyTripValidDetailsToFailTest')
+data.setCell(38, 2, 'AllInOne.Allinone')
+data.setCell(38, 3, 2500);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AllInOne.Allinone</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EMTValidEmail</span>
+                <span class="method-start">5937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EMTValidEmail status=SUCCESS method=Allinone.EMTValidEmail()[pri:1, instance:AllInO...)</span>
+                <span class="method-start">83588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EMTInValidEmail</span>
+                <span class="method-start">83598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EMTInValidEmail status=SUCCESS method=Allinone.EMTInValidEmail()[pri:2, instance:Al...)</span>
+                <span class="method-start">89415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EMTValidMobNum</span>
+                <span class="method-start">89417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EMTValidMobNum status=SUCCESS method=Allinone.EMTValidMobNum()[pri:3, instance:AllI...)</span>
+                <span class="method-start">96496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EMTInValidMobNum</span>
+                <span class="method-start">96500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EMTInValidMobNum status=SUCCESS method=Allinone.EMTInValidMobNum()[pri:4, instance:...)</span>
+                <span class="method-start">100893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EMTEmptyUnm</span>
+                <span class="method-start">100899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EMTEmptyUnm status=SUCCESS method=Allinone.EMTEmptyUnm()[pri:5, instance:AllInOne.A...)</span>
+                <span class="method-start">106846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EaswMyTripValidDetails</span>
+                <span class="method-start">106847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EaswMyTripValidDetails status=SUCCESS method=Allinone.EaswMyTripValidDetails()[pri:...)</span>
+                <span class="method-start">113244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EaswMyTripInValidPassword</span>
+                <span class="method-start">113249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EaswMyTripInValidPassword status=SUCCESS method=Allinone.EaswMyTripInValidPassword(...)</span>
+                <span class="method-start">119406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EaswMyTripInValidEmail</span>
+                <span class="method-start">119410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EaswMyTripInValidEmail status=SUCCESS method=Allinone.EaswMyTripInValidEmail()[pri:...)</span>
+                <span class="method-start">122148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">InvalidDetails</span>
+                <span class="method-start">122151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=InvalidDetails status=SUCCESS method=Allinone.InvalidDetails()[pri:9, instance:AllI...)</span>
+                <span class="method-start">124818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validPhoneValidPassword</span>
+                <span class="method-start">124820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validPhoneValidPassword status=SUCCESS method=Allinone.validPhoneValidPassword()[pr...)</span>
+                <span class="method-start">132966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">InValidPassword</span>
+                <span class="method-start">132971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=InValidPassword status=SUCCESS method=Allinone.InValidPassword()[pri:11, instance:A...)</span>
+                <span class="method-start">139386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">InValidnumber</span>
+                <span class="method-start">139388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=InValidnumber status=SUCCESS method=Allinone.InValidnumber()[pri:12, instance:AllIn...)</span>
+                <span class="method-start">142112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EaswMyTripValidDetailsToFailTest</span>
+                <span class="method-start">142113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EaswMyTripValidDetailsToFailTest status=FAILURE method=Allinone.EaswMyTripValidDeta...)</span>
+                <span class="method-start">144620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Flight_TC_01</span>
+                <span class="method-start">145044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Flight_TC_01 status=SUCCESS method=Allinone.Flight_TC_01()[pri:14, instance:AllInOn...)</span>
+                <span class="method-start">155067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Flight_TC_02</span>
+                <span class="method-start">155070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Flight_TC_02 status=SUCCESS method=Allinone.Flight_TC_02()[pri:15, instance:AllInOn...)</span>
+                <span class="method-start">162781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Flight_TC_03</span>
+                <span class="method-start">162783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Flight_TC_03 status=SUCCESS method=Allinone.Flight_TC_03()[pri:16, instance:AllInOn...)</span>
+                <span class="method-start">173245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Flight_TC_04</span>
+                <span class="method-start">173247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Flight_TC_04 status=SUCCESS method=Allinone.Flight_TC_04()[pri:17, instance:AllInOn...)</span>
+                <span class="method-start">183842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_04</span>
+                <span class="method-start">183843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_04 status=SUCCESS method=Allinone.Book_TC_04()[pri:18, instance:AllInOne.Al...)</span>
+                <span class="method-start">215821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_02</span>
+                <span class="method-start">215823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_02 status=SUCCESS method=Allinone.Book_TC_02()[pri:19, instance:AllInOne.Al...)</span>
+                <span class="method-start">241568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_Tc_03</span>
+                <span class="method-start">241570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_Tc_03 status=SUCCESS method=Allinone.Book_Tc_03()[pri:20, instance:AllInOne.Al...)</span>
+                <span class="method-start">268524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_05</span>
+                <span class="method-start">268526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_05 status=SUCCESS method=Allinone.Book_TC_05()[pri:21, instance:AllInOne.Al...)</span>
+                <span class="method-start">303820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_06</span>
+                <span class="method-start">303821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_06 status=SUCCESS method=Allinone.Book_TC_06()[pri:22, instance:AllInOne.Al...)</span>
+                <span class="method-start">349518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_07</span>
+                <span class="method-start">349520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_07 status=SUCCESS method=Allinone.Book_TC_07()[pri:23, instance:AllInOne.Al...)</span>
+                <span class="method-start">395803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Book_TC_08</span>
+                <span class="method-start">395804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Book_TC_08 status=SUCCESS method=Allinone.Book_TC_08()[pri:24, instance:AllInOne.Al...)</span>
+                <span class="method-start">442133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchvalidDetails</span>
+                <span class="method-start">442135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SearchvalidDetails status=FAILURE method=Allinone.SearchvalidDetails()[pri:25, inst...)</span>
+                <span class="method-start">469884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SearchInvalidEmail</span>
+                <span class="method-start">470521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SearchInvalidEmail status=SUCCESS method=Allinone.SearchInvalidEmail()[pri:26, inst...)</span>
+                <span class="method-start">525491 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ForValidDetails</span>
+                <span class="method-start">525492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForValidDetails status=FAILURE method=Allinone.ForValidDetails()[pri:27, instance:A...)</span>
+                <span class="method-start">549825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForInValidDetails</span>
+                <span class="method-start">550145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForInValidDetails status=SUCCESS method=Allinone.ForInValidDetails()[pri:28, instan...)</span>
+                <span class="method-start">571482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForValidDetailsInVPN</span>
+                <span class="method-start">571483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForValidDetailsInVPN status=SUCCESS method=Allinone.ForValidDetailsInVPN()[pri:29, ...)</span>
+                <span class="method-start">595799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForEmptyDetails</span>
+                <span class="method-start">595801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForEmptyDetails status=SUCCESS method=Allinone.ForEmptyDetails()[pri:30, instance:A...)</span>
+                <span class="method-start">599194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchhotel1</span>
+                <span class="method-start">599196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchhotel1 status=SUCCESS method=Allinone.searchhotel1()[pri:31, instance:AllInOn...)</span>
+                <span class="method-start">608458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchhotel2</span>
+                <span class="method-start">608461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchhotel2 status=SUCCESS method=Allinone.searchhotel2()[pri:32, instance:AllInOn...)</span>
+                <span class="method-start">614533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchhotel3</span>
+                <span class="method-start">614536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchhotel3 status=SUCCESS method=Allinone.searchhotel3()[pri:33, instance:AllInOn...)</span>
+                <span class="method-start">623253 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchhotel4</span>
+                <span class="method-start">623256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchhotel4 status=SUCCESS method=Allinone.searchhotel4()[pri:34, instance:AllInOn...)</span>
+                <span class="method-start">635687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchhotel5</span>
+                <span class="method-start">635690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchhotel5 status=SUCCESS method=Allinone.searchhotel5()[pri:35, instance:AllInOn...)</span>
+                <span class="method-start">644577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">BookHotel1</span>
+                <span class="method-start">644578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=BookHotel1 status=SUCCESS method=Allinone.BookHotel1()[pri:36, instance:AllInOne.Al...)</span>
+                <span class="method-start">687148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">BookHotel2</span>
+                <span class="method-start">687149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=BookHotel2 status=SUCCESS method=Allinone.BookHotel2()[pri:37, instance:AllInOne.Al...)</span>
+                <span class="method-start">727917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">BookHotel3</span>
+                <span class="method-start">727918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=BookHotel3 status=SUCCESS method=Allinone.BookHotel3()[pri:38, instance:AllInOne.Al...)</span>
+                <span class="method-start">769007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">BookHotel4</span>
+                <span class="method-start">769015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=BookHotel4 status=SUCCESS method=Allinone.BookHotel4()[pri:39, instance:AllInOne.Al...)</span>
+                <span class="method-start">817053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownAfterClass</span>
+                <span class="method-start">817054 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

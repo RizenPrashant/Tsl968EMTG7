@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="36" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-23T00:16:00 IST" name="Default suite" finished-at="2021-11-23T00:29:41 IST" duration-ms="820633">
+    <groups>
+    </groups>
+    <test started-at="2021-11-23T00:16:00 IST" name="Default test" finished-at="2021-11-23T00:29:41 IST" duration-ms="820633">
+      <class name="AllInOne.Allinone">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:16:00 IST" name="setUpBeforeClass" finished-at="2021-11-23T00:16:06 IST" duration-ms="5912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="EMTValidEmail()[pri:1, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:16:06 IST" name="EMTValidEmail" finished-at="2021-11-23T00:17:24 IST" duration-ms="77646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMTValidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:24 IST" name="tearDown" finished-at="2021-11-23T00:17:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EMTValidEmail status=SUCCESS method=Allinone.EMTValidEmail()[pri:1, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EMTInValidEmail()[pri:2, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:24 IST" name="EMTInValidEmail" finished-at="2021-11-23T00:17:29 IST" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMTInValidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:29 IST" name="tearDown" finished-at="2021-11-23T00:17:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EMTInValidEmail status=SUCCESS method=Allinone.EMTInValidEmail()[pri:2, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EMTValidMobNum()[pri:3, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:29 IST" name="EMTValidMobNum" finished-at="2021-11-23T00:17:36 IST" duration-ms="7077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMTValidMobNum -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:36 IST" name="tearDown" finished-at="2021-11-23T00:17:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EMTValidMobNum status=SUCCESS method=Allinone.EMTValidMobNum()[pri:3, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EMTInValidMobNum()[pri:4, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:36 IST" name="EMTInValidMobNum" finished-at="2021-11-23T00:17:41 IST" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMTInValidMobNum -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:41 IST" name="tearDown" finished-at="2021-11-23T00:17:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EMTInValidMobNum status=SUCCESS method=Allinone.EMTInValidMobNum()[pri:4, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EMTEmptyUnm()[pri:5, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:41 IST" name="EMTEmptyUnm" finished-at="2021-11-23T00:17:47 IST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMTEmptyUnm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:47 IST" name="tearDown" finished-at="2021-11-23T00:17:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EMTEmptyUnm status=SUCCESS method=Allinone.EMTEmptyUnm()[pri:5, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EaswMyTripValidDetails()[pri:6, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:47 IST" name="EaswMyTripValidDetails" description="Login acc with valid details" finished-at="2021-11-23T00:17:53 IST" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EaswMyTripValidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:53 IST" name="tearDown" finished-at="2021-11-23T00:17:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EaswMyTripValidDetails status=SUCCESS method=Allinone.EaswMyTripValidDetails()[pri:6, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EaswMyTripInValidPassword()[pri:7, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:53 IST" name="EaswMyTripInValidPassword" description="Login acc with Inalid Password" finished-at="2021-11-23T00:17:59 IST" duration-ms="6154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EaswMyTripInValidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:59 IST" name="tearDown" finished-at="2021-11-23T00:17:59 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EaswMyTripInValidPassword status=SUCCESS method=Allinone.EaswMyTripInValidPassword()[pri:7, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EaswMyTripInValidEmail()[pri:8, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:17:59 IST" name="EaswMyTripInValidEmail" description="Login acc with Invalid Email" finished-at="2021-11-23T00:18:02 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EaswMyTripInValidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:02 IST" name="tearDown" finished-at="2021-11-23T00:18:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EaswMyTripInValidEmail status=SUCCESS method=Allinone.EaswMyTripInValidEmail()[pri:8, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InvalidDetails()[pri:9, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:02 IST" name="InvalidDetails" description="Login acc with Invalid Details" finished-at="2021-11-23T00:18:05 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:05 IST" name="tearDown" finished-at="2021-11-23T00:18:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidDetails status=SUCCESS method=Allinone.InvalidDetails()[pri:9, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validPhoneValidPassword()[pri:10, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:05 IST" name="validPhoneValidPassword" description="Login acc with valid Phone no and valid password" finished-at="2021-11-23T00:18:13 IST" duration-ms="8144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPhoneValidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:13 IST" name="tearDown" finished-at="2021-11-23T00:18:13 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validPhoneValidPassword status=SUCCESS method=Allinone.validPhoneValidPassword()[pri:10, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InValidPassword()[pri:11, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:13 IST" name="InValidPassword" description="Login acc with valid Phone no and Invalid password" finished-at="2021-11-23T00:18:19 IST" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:19 IST" name="tearDown" finished-at="2021-11-23T00:18:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidPassword status=SUCCESS method=Allinone.InValidPassword()[pri:11, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InValidnumber()[pri:12, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:19 IST" name="InValidnumber" description="Login acc with Invalid Phone no " finished-at="2021-11-23T00:18:22 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidnumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:22 IST" name="tearDown" finished-at="2021-11-23T00:18:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidnumber status=SUCCESS method=Allinone.InValidnumber()[pri:12, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EaswMyTripValidDetailsToFailTest()[pri:13, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:22 IST" name="EaswMyTripValidDetailsToFailTest" description="to show screenshot in extent report." finished-at="2021-11-23T00:18:25 IST" duration-ms="2500" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="shwotpms"]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, findElement {using=xpath, value=//*[@id="shwotpms"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="shwotpms"]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, findElement {using=xpath, value=//*[@id="shwotpms"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at AllInOne.Allinone.EaswMyTripValidDetailsToFailTest(Allinone.java:326)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EaswMyTripValidDetailsToFailTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:25 IST" name="tearDown" finished-at="2021-11-23T00:18:25 IST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EaswMyTripValidDetailsToFailTest status=FAILURE method=Allinone.EaswMyTripValidDetailsToFailTest()[pri:13, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Flight_TC_01()[pri:14, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:25 IST" name="Flight_TC_01" description="To Test search flight using valid from City and Destination City and  date " finished-at="2021-11-23T00:18:35 IST" duration-ms="10022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:35 IST" name="tearDown" finished-at="2021-11-23T00:18:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_01 status=SUCCESS method=Allinone.Flight_TC_01()[pri:14, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Flight_TC_02()[pri:15, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:35 IST" name="Flight_TC_02" description="To Ensure that flights can not be search using the value empty from city, empty Destination City  and date" finished-at="2021-11-23T00:18:43 IST" duration-ms="7709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_02 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:43 IST" name="tearDown" finished-at="2021-11-23T00:18:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_02 status=SUCCESS method=Allinone.Flight_TC_02()[pri:15, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Flight_TC_03()[pri:16, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:43 IST" name="Flight_TC_03" description=" To Ensure that flight can not booked using empty from city " finished-at="2021-11-23T00:18:53 IST" duration-ms="10461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_03 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:53 IST" name="tearDown" finished-at="2021-11-23T00:18:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_03 status=SUCCESS method=Allinone.Flight_TC_03()[pri:16, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Flight_TC_04()[pri:17, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:18:53 IST" name="Flight_TC_04" description="To Ensure that flight can not booked using empty To block " finished-at="2021-11-23T00:19:04 IST" duration-ms="10594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_04 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:19:04 IST" name="tearDown" finished-at="2021-11-23T00:19:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_04 status=SUCCESS method=Allinone.Flight_TC_04()[pri:17, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_04()[pri:18, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:19:04 IST" name="Book_TC_04" description="To verify Traveller details with valid title,firstName,LastName And phone number" finished-at="2021-11-23T00:19:36 IST" duration-ms="31977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_04 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:19:36 IST" name="tearDown" finished-at="2021-11-23T00:19:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_04 status=SUCCESS method=Allinone.Book_TC_04()[pri:18, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_02()[pri:19, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:19:36 IST" name="Book_TC_02" description="To test Book Flight using valid mail id" finished-at="2021-11-23T00:20:01 IST" duration-ms="25743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_02 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:20:01 IST" name="tearDown" finished-at="2021-11-23T00:20:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_02 status=SUCCESS method=Allinone.Book_TC_02()[pri:19, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_Tc_03()[pri:20, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:20:02 IST" name="Book_Tc_03" description="To test Book Flight using invalid mail id" finished-at="2021-11-23T00:20:28 IST" duration-ms="26953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_Tc_03 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:20:28 IST" name="tearDown" finished-at="2021-11-23T00:20:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_Tc_03 status=SUCCESS method=Allinone.Book_Tc_03()[pri:20, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_05()[pri:21, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:20:28 IST" name="Book_TC_05" description="To Verify Traveller details without details" finished-at="2021-11-23T00:21:04 IST" duration-ms="35292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_05 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:21:04 IST" name="tearDown" finished-at="2021-11-23T00:21:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_05 status=SUCCESS method=Allinone.Book_TC_05()[pri:21, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_06()[pri:22, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:21:04 IST" name="Book_TC_06" description="To Verify Travellrr Detail withoud Entering Title" finished-at="2021-11-23T00:21:49 IST" duration-ms="45696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_06 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:21:49 IST" name="tearDown" finished-at="2021-11-23T00:21:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_06 status=SUCCESS method=Allinone.Book_TC_06()[pri:22, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_07()[pri:23, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:21:49 IST" name="Book_TC_07" description="To verify Travellor details without Entering First Name" finished-at="2021-11-23T00:22:36 IST" duration-ms="46282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_07 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:22:36 IST" name="tearDown" finished-at="2021-11-23T00:22:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_07 status=SUCCESS method=Allinone.Book_TC_07()[pri:23, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Book_TC_08()[pri:24, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:22:36 IST" name="Book_TC_08" description="To verify Travellor Details withoud Entering Last Name" finished-at="2021-11-23T00:23:22 IST" duration-ms="46328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_08 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:23:22 IST" name="tearDown" finished-at="2021-11-23T00:23:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_08 status=SUCCESS method=Allinone.Book_TC_08()[pri:24, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SearchvalidDetails()[pri:25, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:23:22 IST" name="SearchvalidDetails" description="Creating acc with valid details" finished-at="2021-11-23T00:23:50 IST" duration-ms="27747" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=a0d367f0-5199-4e4b-abe2-8f4e211ff3d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -> xpath: //*[@id='divTravlerEntry']/div[2]/div/a]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=a0d367f0-5199-4e4b-abe2-8f4e211ff3d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -> xpath: //*[@id='divTravlerEntry']/div[2]/div/a]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at AllInOne.Allinone.SearchvalidDetails(Allinone.java:905)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchvalidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:23:50 IST" name="tearDown" finished-at="2021-11-23T00:23:50 IST" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchvalidDetails status=FAILURE method=Allinone.SearchvalidDetails()[pri:25, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SearchInvalidEmail()[pri:26, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:23:50 IST" name="SearchInvalidEmail" description="Creating acc with Invalid Email" finished-at="2021-11-23T00:24:45 IST" duration-ms="54969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInvalidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:24:45 IST" name="tearDown" finished-at="2021-11-23T00:24:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchInvalidEmail status=SUCCESS method=Allinone.SearchInvalidEmail()[pri:26, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ForValidDetails()[pri:27, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:24:45 IST" name="ForValidDetails" finished-at="2021-11-23T00:25:10 IST" duration-ms="24331" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=d03c1c18-b63c-413c-b8d3-73515281fd06}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -> xpath: //select[@id='titleAdult0']]] -> tag name: option]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8FK0RMT', ip: '192.168.43.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd5f61720913da7b1fb1dbdb8a096cf1, clickElement {id=d03c1c18-b63c-413c-b8d3-73515281fd06}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\prash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on WINDOWS (fd5f61720913da7b1fb1dbdb8a096cf1)] -> xpath: //select[@id='titleAdult0']]] -> tag name: option]
+Session ID: fd5f61720913da7b1fb1dbdb8a096cf1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:176)
+at AllInOne.Allinone.ForValidDetails(Allinone.java:1002)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForValidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:10 IST" name="tearDown" finished-at="2021-11-23T00:25:10 IST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForValidDetails status=FAILURE method=Allinone.ForValidDetails()[pri:27, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ForInValidDetails()[pri:28, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:10 IST" name="ForInValidDetails" finished-at="2021-11-23T00:25:31 IST" duration-ms="21336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForInValidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:31 IST" name="tearDown" finished-at="2021-11-23T00:25:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForInValidDetails status=SUCCESS method=Allinone.ForInValidDetails()[pri:28, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ForValidDetailsInVPN()[pri:29, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:31 IST" name="ForValidDetailsInVPN" finished-at="2021-11-23T00:25:56 IST" duration-ms="24315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForValidDetailsInVPN -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:56 IST" name="tearDown" finished-at="2021-11-23T00:25:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForValidDetailsInVPN status=SUCCESS method=Allinone.ForValidDetailsInVPN()[pri:29, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ForEmptyDetails()[pri:30, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:56 IST" name="ForEmptyDetails" finished-at="2021-11-23T00:25:59 IST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForEmptyDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:59 IST" name="tearDown" finished-at="2021-11-23T00:25:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForEmptyDetails status=SUCCESS method=Allinone.ForEmptyDetails()[pri:30, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchhotel1()[pri:31, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:25:59 IST" name="searchhotel1" finished-at="2021-11-23T00:26:08 IST" duration-ms="9260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:08 IST" name="tearDown" finished-at="2021-11-23T00:26:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchhotel1 status=SUCCESS method=Allinone.searchhotel1()[pri:31, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchhotel2()[pri:32, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:08 IST" name="searchhotel2" description="no location" finished-at="2021-11-23T00:26:14 IST" depends-on-methods="AllInOne.Allinone.searchhotel1" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:14 IST" name="tearDown" finished-at="2021-11-23T00:26:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchhotel2 status=SUCCESS method=Allinone.searchhotel2()[pri:32, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchhotel3()[pri:33, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:14 IST" name="searchhotel3" description="checkin and checkout with same date" finished-at="2021-11-23T00:26:23 IST" depends-on-methods="AllInOne.Allinone.searchhotel2" duration-ms="8716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:23 IST" name="tearDown" finished-at="2021-11-23T00:26:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchhotel3 status=SUCCESS method=Allinone.searchhotel3()[pri:33, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchhotel4()[pri:34, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:23 IST" name="searchhotel4" description="4 adults and 2 children in 2 rooms" finished-at="2021-11-23T00:26:36 IST" depends-on-methods="AllInOne.Allinone.searchhotel3" duration-ms="12430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:36 IST" name="tearDown" finished-at="2021-11-23T00:26:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchhotel4 status=SUCCESS method=Allinone.searchhotel4()[pri:34, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchhotel5()[pri:35, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:36 IST" name="searchhotel5" description="8 adults and 2 children in 3 rooms" finished-at="2021-11-23T00:26:45 IST" depends-on-methods="AllInOne.Allinone.searchhotel4" duration-ms="8886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:45 IST" name="tearDown" finished-at="2021-11-23T00:26:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchhotel5 status=SUCCESS method=Allinone.searchhotel5()[pri:35, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="BookHotel1()[pri:36, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:26:45 IST" name="BookHotel1" description="invalid case and handling alert" finished-at="2021-11-23T00:27:27 IST" duration-ms="42569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:27:27 IST" name="tearDown" finished-at="2021-11-23T00:27:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookHotel1 status=SUCCESS method=Allinone.BookHotel1()[pri:36, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="BookHotel2()[pri:37, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:27:27 IST" name="BookHotel2" description="valid test case entering only 1 guest details" finished-at="2021-11-23T00:28:08 IST" duration-ms="40767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:28:08 IST" name="tearDown" finished-at="2021-11-23T00:28:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookHotel2 status=SUCCESS method=Allinone.BookHotel2()[pri:37, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="BookHotel3()[pri:38, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:28:08 IST" name="BookHotel3" description="1 child and 1 adult valid case" finished-at="2021-11-23T00:28:49 IST" duration-ms="41087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:28:49 IST" name="tearDown" finished-at="2021-11-23T00:28:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookHotel3 status=SUCCESS method=Allinone.BookHotel3()[pri:38, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="BookHotel4()[pri:39, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:28:49 IST" name="BookHotel4" description="2 rooms, incomplete details,invalid case not handling alert" finished-at="2021-11-23T00:29:37 IST" duration-ms="48037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:29:37 IST" name="tearDown" finished-at="2021-11-23T00:29:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookHotel4 status=SUCCESS method=Allinone.BookHotel4()[pri:39, instance:AllInOne.Allinone@4efc180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:AllInOne.Allinone@4efc180e]" started-at="2021-11-23T00:29:37 IST" name="tearDownAfterClass" finished-at="2021-11-23T00:29:41 IST" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- AllInOne.Allinone -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
